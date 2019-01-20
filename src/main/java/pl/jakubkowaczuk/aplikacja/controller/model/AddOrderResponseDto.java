@@ -5,6 +5,9 @@ import lombok.Data;
 
 @Data
 @Builder
-public class OrderResponseDto {
-    private String result;
+public class AddOrderResponseDto {
+    private String name;
+    private String price;
+    private Integer amount;
+
 }

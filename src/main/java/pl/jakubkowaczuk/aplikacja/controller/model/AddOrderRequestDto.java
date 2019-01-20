@@ -8,10 +8,11 @@ import javax.validation.constraints.NotNull;
 
 @Getter
 @Setter
-public class OrderRequestDto {
+public class AddOrderRequestDto {
     @NotNull
     private String name;
     @NotNull
     private String price;
-
+    @NotNull
+    private Integer amount;
 }
